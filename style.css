@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    top: 0px;
+    /* font-family: "Old Standard TT", serif; */
+    font-family:'Times New Roman', Times, serif;
+}
+
+.navbar {
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    width: 80vw;
+    height: 12vh;
+
+    background-color: rgb(250, 243, 230);
+
+    margin: auto;
+    padding: 50px;
+
+    border-radius: 25px;
+
+    /* Animation :  */
+    transition: top 1s ease;
+}
+
+
+
+.navbar ul {
+    display: flex;
+    gap: 70px;
+
+    list-style: none;
+}
+
+.navbar ul a {
+    color: rgb(0, 0, 0);
+
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.main {
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+
+    width: 100vw;
+    height: auto;
+}
+
+.blackbox {
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.7;
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.main .seapration {
+    width: 100vw;
+    height: 5px;
+    background-color: rgb(250, 243, 230);
+    ;
+}
+
+.main .intro {
+    height: 120vh;
+
+    position: relative;
+
+    background-image: url("bg1.jpg");
+    background-position: center center;
+    background-size: max(2000px, 100vw);
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .skills {
+    position: relative;
+    background-image: url("bg2.jpg");
+    background-position: top;
+    background-size: max(2000px, 100vw);
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+
+.main .projects {
+    height: 120vh;
+    position: relative;
+    background-image: url("bg3.jpg");
+    background-position: top;
+    background-size: max(2000px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.main .AboutMe {
+    height: 120vh;
+    position: relative;
+    background-image: url("bg4.jpg");
+    background-position: top;
+    background-size: max(2000px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.main .Contact {
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+}
+
+
+div.editor {
+    font-size: 20px;
+
+    position: relative;
+    z-index: 2;
+
+    height: 65vh;
+    width: 70vw;
+
+    margin-bottom: 15px;
+    padding-bottom: 50px;
+
+    background-color: #212121;
+    opacity: 0.95;
+
+    border: 2px solid rgb(250, 243, 230);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.02);
+
+    color:rgb(180, 163, 145) ;
+    
+}
+.editor div h1:nth-child(1){
+    color: rgb(156, 152, 144);
+    
+}
+
+.editor div h1:nth-child(2){
+    color: rgb(250, 243, 230);
+}
+
+.editor div:nth-child(1){
+    text-align: center;
+    font-family: "Old Standard TT", serif;
+}
+
+.editor div:nth-child(2){
+    width: 70%;
+    margin-top: 40px;
+    text-align: center;
+
+}
